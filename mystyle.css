@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -53,18 +58,34 @@ canvas {
     animation: toDown 1.3s linear 0s 1 normal forwards;
 }
 
+.information h3 {
+    font-family: 'Play', sans-serif;
+}
+
 .information img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+}
+
+.information h4 {
+    font-family: 'Roboto', sans-serif;
 }
 
 .information p {
     text-align: justify;
+    font-family: 'Sawarabi Gothic', sans-serif;
     font-size: 1.8rem;
 }
 
-.information p a {
+.information p a:link,
+.information p a:visited {
     color: white;
+    text-decoration: none;
+}
+
+.information p a:hover,
+.information p a:active {
+    text-decoration: underline;
 }
 
 .information button {
